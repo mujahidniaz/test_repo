@@ -1,0 +1,65 @@
+.react-data-table table th{
+    background-color: #4fd1c5;
+    color:white;
+    font-weight: bold;
+   
+}
+.react-data-table {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+     overflow: auto;
+  white-space: nowrap; 
+  margin-top: 2%;
+
+}
+
+.custom-table th,
+.custom-table td {
+    white-space: nowrap;
+}
+.react-data-table svg {
+    padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.react-data-table table {font-size: 14px;width: 100%;}
+
+.react-data-table .badge {
+    min-width: 90%;
+    max-width: 900%;
+    width: 90%;
+    padding: 0.7rem 1rem;
+    font-size: 0.775rem;
+}
+.react-data-table .badge-success {
+   background-color: #4fd1c5;
+   border-color: #7bace1;
+    
+}
+.react-data-table .badge-warning {
+    color: #212529;
+    background-color: #EED999;
+    border-color: #EED999;
+}
+
+.react-data-table .badge-danger {
+    background-color:#ee727e;
+    border-color: #ee727e;
+}
+.react-data-table .badge-primary {
+    background-color: #7bace1;
+    border-color: #7bace1;;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #4fd1c5;
+    border-color: #4fd1c5;
+}
+.page-item.active .page-item {
+    z-index: 3;
+    color: #fff;
+    background-color: #4fd1c5;
+    border-color: #4fd1c5;
+}
